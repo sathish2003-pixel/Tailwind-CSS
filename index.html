@@ -7,8 +7,8 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
-<body class="p-5 md:p-10 text-gray-800">
-<section class="bg-purple-200 rounded-2xl p-5">
+<body class="p-5 md:p-10">
+<section class="bg-purple-200 rounded-2xl p-5 mb-10">
     <div class="container mx-auto">
         <div class="flex">
         <a class="text-3xl font-extralight pr-5 border-r  mr-5" href="./index.html">Agency</a>
@@ -47,7 +47,7 @@
         </a>
         </div>
         <div class="mobile-view-nav
-        lg:hidden">
+        hidden">
             <ul class="font-bold border-none">
                 <li class="mt-2">
                     <a href="" class="py-2">Home</a>
@@ -66,17 +66,105 @@
                 </li>
             </ul>
         </div>
-        <div id="home" class="flex">
-            <div class="w-1/2">
-
+        <div id="home" class="flex py-12 lg:py-36">
+            <div class="w-full lg:w-1/2">
+                <h2 class="text-3xl lg:text-7xl font-bold     
+                 lg:font-semibold text-center lg:text-left">World class design for a product</h2>
+                <p class="mt-4 lg:mt-8 text-2xl text-gray-400 text-center lg:text-left">Lets bring life to your brand.</p>
+                <div class="flex mt-4 justify-center lg:justify-start">
+                    <a href="" class="bg-purple-600 mr-4 p-2 rounded mt-3 border hover:bg-sky-700 text-white">Services</a>
+                    <a href="" class="bg-red-500 p-2 rounded p-2 mt-3 border hover:bg-yellow-500 text-white">Contact Us </a>
+                </div>
             </div>
-            <div class="w-1/2">
-                
+            <div class="w-1/2 hidden lg:flex">
+                <img src="./assets/hero2.svg"alt="">
             </div>
+           
+        </div>
+        <div class="justify-center flex">
+            <a href="" class="bg-emerald-200 p-2 rounded-3xl flex">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                  </svg>
+                  <span class="mr-2">Scroll Down</span>
+            </a>
         </div>
     </div>
 </section>
-</body>
-    
+<section class="bg-red-200 mb-10 rounded-2xl p-5" id="contnet">
+    <div class="container mx-auto">
+        <div class="py-10 lg:py-28">
+        <h2 class="text-center text-3xl lg:text-5xl font-semibold">
+            Our services</h2>
+            <p class="lg:w-1/2 text-center mx-auto mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error perferendis totam,sit amet consectetur, adipisicing elit. Error perferendis totam </p>
+     <!-- Cards section -->
+     </div>
+    <div class="flex flex-wrap pb-16 lg:pb-28 justify-center">
+    <div class="card w-full lg:w-1/2 xl:w-1/3  py-5 lg:p-5">
+        <div class="bg-white p-10 rounded-2xl">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-2 lg:mb-7 text-blue-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+              </svg>
+              
+            <h3 class="text-3xl pb-4 font-semibold text-gray-500">Design</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quod quaerat ratione distinctio ipsam eum accusantium expedita consequuntur, obcaecati ullam harum cum, sapiente dolor incidunt soluta doloribus voluptas modi nisi?</p>
+        </div>
+    </div>
+     <div class="card w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5">
+        <div class="bg-white p-10 rounded-2xl">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-2 lg:mb-7 text-green-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
+              </svg>
+              
+            <h3 class="text-3xl pb-4 font-semibold text-gray-500">Development</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quod quaerat ratione distinctio ipsam eum accusantium expedita consequuntur, obcaecati ullam harum cum, sapiente dolor incidunt soluta doloribus voluptas modi nisi?</p>
+        </div>
+     </div>
+     <div class="card w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5">
+        <div class="bg-white p-10 rounded-2xl">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-2 lg:mb-7 text-green-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
+              </svg>
+              
+            <h3 class="text-3xl pb-4 font-semibold text-gray-500">Development</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quod quaerat ratione distinctio ipsam eum accusantium expedita consequuntur, obcaecati ullam harum cum, sapiente dolor incidunt soluta doloribus voluptas modi nisi?</p>
+        </div>
+     </div>
+     <div class="card w-full lg:w-1/2 xl:w-1/3  py-5 lg:p-5">
+        <div class="bg-white p-10 rounded-2xl">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-2 lg:mb-7 text-red-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+              </svg>
+              
+            <h3 class="text-3xl pb-4 font-semibold text-gray-500">Digital marketing</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quod quaerat ratione distinctio ipsam eum accusantium expedita consequuntur, obcaecati ullam harum cum, sapiente dolor incidunt soluta doloribus voluptas modi nisi?</p>
+        </div>
+     </div>
+     </div>
+     
+    </div>
+   
+</section>
+<section class="rounded-2xl p-5" id="companies">
+    <div class="container mx-auto px-18 ">
+        <div class="bg-green-600 p-10 rounded-2xl">
+            <h2 class="font-bold text-3xl text-white text-center">Companies who trust</h2>
+            <div class="flex flex-wrap mt-8 justify-center">
+                <div class="w-full lg:w-1/3 md:w-1/2 xl:w-1/4 p-5">
+                    <img src="./assets/dummy_logo.png" class="mx-auto max-h-12">
+                </div>
+                <div class="w-full lg:w-1/3 md:w-1/2 xl:w-1/4 p-5">
+                    <img src="./assets/dummy_logo.png" class="mx-auto max-h-12">
+                </div>
+                <div class="w-full lg:w-1/3 md:w-1/2 xl:w-1/4 p-5"> 
+                    <img src="./assets/dummy_logo.png" class="mx-auto max-h-12">
+                </div>
+                <div class="w-full lg:w-1/3 md:w-1/2 xl:w-1/4 p-5">
+                    <img src="./assets/dummy_logo.png" class="mx-auto max-h-12">
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
 </body>
 </html>
